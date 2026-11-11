@@ -1,20 +1,29 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import React, {useState} from 'react';
+import {View, ScrollView} from 'react-native';
 
-export default function App() {
+import QuizHeader from './components/QuizHeader';
+import QuizQuestions from './components/QuizQuestions';
+import SubmitButton from './components/SubmitButton';
+
+const App = () => {
+  const [answers, setAnswers] = useState([
+    '', '', '', '', '', '', '', ''
+  ]);
+
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
-}
+      <View style={{flex: 1, backgroundColor: '#17152B'}}>
+        <ScrollView>
+          <QuizHeader />
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+          <QuizQuestions
+              answers={answers}
+              setAnswers={setAnswers}
+          />
+
+          <SubmitButton answers={answers} />
+        </ScrollView>
+      </View>
+  );
+};
+
+export default App;
