@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f06bd31f-32ac-4d40-abe8-562170eff178" name="Changes" comment="">
+    <list default="true" id="f06bd31f-32ac-4d40-abe8-562170eff178" name="Changes" comment="l06">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,11 +77,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1793847885716</updated>
-      <workItem from="1793847886843" duration="7490000" />
+      <workItem from="1793847886843" duration="7532000" />
+      <workItem from="1794365538929" duration="639000" />
     </task>
+    <task id="LOCAL-00001" summary="l06">
+      <option name="closed" value="true" />
+      <created>1794037441442</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1794037441443</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="l06" />
+    <option name="LAST_COMMIT_MESSAGE" value="l06" />
   </component>
 </project>
